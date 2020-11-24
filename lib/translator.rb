@@ -33,6 +33,7 @@ def get_japanese_emoticon(file_path,emoticon)
   # code goes here
   emoticon_hash = load_library(file_path)
   emoticon_hash.each do |key,value|
+    binding.pry
     value.map
   
       end
