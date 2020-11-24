@@ -32,7 +32,6 @@ end
 def get_japanese_emoticon(file_path,emoticon)
   # code goes here
   emoticon_hash = load_library(file_path)
-  binding.pry
   emoticon_hash.each do |key,value|
     value.each do |key_2,value_2|
       if value_2 == emoticon
