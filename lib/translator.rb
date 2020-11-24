@@ -36,6 +36,6 @@ def get_japanese_emoticon(file_path,emoticon)
     value.map do |key_2,value_2|
       
     end
-    binding.pry
+    
   end
 end
